@@ -4,5 +4,5 @@ RegisterCommand("discord", function()
 end, false)
 
 function msg(text)
-  TriggerEvent("chatMessage", "[Server]", {255,0,0}, text)
+  exports['mythic_notify']:DoHudText('inform', 'Discord: dsc.gg/zrp', { ['background-color'] = '#ffffff', ['color'] = '#000000' })
 end
