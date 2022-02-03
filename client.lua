@@ -3,4 +3,4 @@ RegisterCommand("discord", function()
     
 end, false)
 
-TriggerEvent('chat:addSuggestion', '/discord', 'Join our Discord server with the link!!')
+TriggerEvent('chat:addSuggestion', '/discord', 'Join our Discord server with the link!')
