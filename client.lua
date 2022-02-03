@@ -1,4 +1,4 @@
 RegisterCommand("discord", function()
-     exports['mythic_notify']:DoHudText('inform', '📣 Discord: dsc.gg/zlrp')
+     exports['mythic_notify']:DoHudText('inform', '📣 Discord: [YOUR OWN LINK]')
     
 end, false)
